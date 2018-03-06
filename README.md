@@ -4,6 +4,7 @@ A high-performance rate limiter written in GO language
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![godoc](https://godoc.org/github.com/ahmedash95/ratelimit?status.svg)](https://godoc.org/github.com/ahmedash95/ratelimit)
 [![Go Report Card](https://goreportcard.com/badge/github.com/ahmedash95/ratelimit)](https://goreportcard.com/report/github.com/ahmedash95/ratelimit)
+[![Build Status](https://travis-ci.org/ahmedash95/ratelimit.svg?branch=master)](https://travis-ci.org/ahmedash95/ratelimit) 
 
 This package provides a Golang implementation of rate limit
 
