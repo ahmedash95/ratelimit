@@ -1,6 +1,10 @@
 # RateLimit
 A high-performance rate limiter written in GO language
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![godoc](https://godoc.org/github.com/ahmedash95/ratelimit?status.svg)](https://godoc.org/github.com/ahmedash95/ratelimit)
+[![Go Report Card](https://goreportcard.com/badge/github.com/ahmedash95/ratelimit)](https://goreportcard.com/report/github.com/ahmedash95/ratelimit)
+
 This package provides a Golang implementation of rate limit
 
 Create a rate limiter with a maximum number of operations to perform per second. with the ability of mark as a spam then block for a specific period
