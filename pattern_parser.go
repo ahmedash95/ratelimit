@@ -27,13 +27,17 @@ func parse(s string) (Options, error) {
 	}
 
 	per := p[1]
-	if per != "s" && per != "m" {
-		return op, fmt.Errorf("Invalid limit [%s] Limit must be per s as second or m as minute", per)
+	if per != "s" && per != "m" && per != "h" {
+		return op, fmt.Errorf("Invalid limit [%s] Limit must be per s as second or m as minute or h as hour", per)
 	}
 
 	perDuration := time.Second
 	if per == "m" {
 		perDuration = time.Minute
+	}
+
+	if per == "h" {
+		perDuration = time.Hour
 	}
 
 	op.Max = maxValue
