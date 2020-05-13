@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"aahframework.org/test.v0/assert"
-	"github.com/bouk/monkey"
+	"bou.ke/monkey"
 )
 
 func Test_IT_PANIC_WHEN_INVALID_NEW_RATE_PATTERN(t *testing.T) {
