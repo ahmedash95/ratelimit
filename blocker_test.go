@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"aahframework.org/test.v0/assert"
-	"github.com/bouk/monkey"
+	"bou.ke/monkey"
 )
 
 func Test_it_block_as_expected(t *testing.T) {
